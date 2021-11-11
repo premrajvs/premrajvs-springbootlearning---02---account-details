@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AccountDetailsApplication<account-details>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.performanceengineering.accountdetails.AccountDetailsApplication",
+            "projectName": "account-details",
+            "args": ""
+        }
+    ]
+}
