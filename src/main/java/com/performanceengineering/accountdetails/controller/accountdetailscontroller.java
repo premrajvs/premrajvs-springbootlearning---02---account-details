@@ -1,5 +1,6 @@
 package com.performanceengineering.accountdetails.controller;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class accountdetailscontroller {
 
     @RequestMapping("/{accId}")
     public List<accountdetailsmodel> getAccountDetails(@PathVariable("accId") String accId) {
-        return Collections.singletonList(new accountdetailsmodel(accId, "1234"));
+        return Arrays.asList(new accountdetailsmodel(accId, "100-100-100-100")
+        /* ,new accountdetailsmodel("2", "200-200-200-200") */);
     }
 }
