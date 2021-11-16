@@ -16,7 +16,7 @@ public class accountdetailscontroller {
 
     @RequestMapping("/{accId}")
     public List<accountdetailsmodel> getAccountDetails(@PathVariable("accId") String accId) {
-        return Arrays.asList(new accountdetailsmodel(accId, "100-100-100-100", "10-01-2021", "Platinum")
-        /* ,new accountdetailsmodel("2", "200-200-200-200") */);
+        return Arrays.asList(new accountdetailsmodel("1", "100-100-100-100", "10-01-2021", "Platinum"),
+                new accountdetailsmodel("2", "200-200-200-200", "20-02-2021", "gold"));
     }
 }
