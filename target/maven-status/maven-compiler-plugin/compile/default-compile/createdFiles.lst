@@ -1,0 +1,3 @@
+com\performanceengineering\accountdetails\model\accountdetailsmodel.class
+com\performanceengineering\accountdetails\controller\accountdetailscontroller.class
+com\performanceengineering\accountdetails\AccountDetailsApplication.class
